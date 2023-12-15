@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-AU-Compatible" content="IE=edge">
@@ -7,25 +8,24 @@
     <link rel="stylesheet" href="./style.css">
     <title>to do list | Diseño & accesorios </title>
 </head>
+
 <body>
     <img src="./images/Diseños y accesorios.png" alt="Logo" class="logo">
     <h1>Javascript - To do list</h1>
     <form action="#" id="userInput">
-        <input type="text" placeholder="escribe tu tarea aquí..." autofocus>
-        <input type="submit" value="+" id="addBtn">
+        <input type="text" placeholder="escribe tu tarea aquí..." autofocus data-input-task>
+        <input type="submit" value="+" id="addBtn" data-btn-task>
     </form>
 
-    <div id="list" class="list-Container">
-        <div class="task-container" id="1">
-            <label for="">
-                <input type="checkbox">
-                Tarea 1
-            </label>
-            <img src="./images/bin.png" class="closeBtn">
-        </div>
+    <div id="list" class="list-Container" data-list>
+
+       
+
     </div>
     <div id="stats">
         Tareas pendientes: 5 completadas: 3
     </div>
 </body>
+<script src="./main.js"></script>
+
 </html>
