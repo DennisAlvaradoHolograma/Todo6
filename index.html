@@ -1,31 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-AU-Compatible" content="IE=edge">
+    <meta http-equiv= "X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
-    <title>to do list | Diseño & accesorios </title>
+    <title>Javascript | To do list</title>
 </head>
+<h1>
 
-<body>
     <img src="./images/Diseños y accesorios.png" alt="Logo" class="logo">
-    <h1>Javascript - To do list</h1>
-    <form action="#" id="userInput">
-        <input type="text" placeholder="escribe tu tarea aquí..." autofocus data-input-task>
-        <input type="submit" value="+" id="addBtn" data-btn-task>
+    <h1>javascript -To do List</h1>
+
+    <form action="#" id="userInput" data-input>
+        <input type="text" placeholder="Escribe tu tarea aquí..." autofocus>
+        <input type="submit" value="+" id="addBtn">
+
+        <div id="list" class="list-container">
+        </div>
+
+        <div id="stats">
+             <!-- Tareas pendientes 5 completadas 3 -->
+        </div>
+            
     </form>
 
-    <div id="list" class="list-Container" data-list>
 
-       
-
-    </div>
-    <div id="stats">
-        Tareas pendientes: 5 completadas: 3
-    </div>
+    <script src="./main.js"></script>
 </body>
-<script src="./main.js"></script>
-
 </html>

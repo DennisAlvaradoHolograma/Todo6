@@ -34,6 +34,7 @@ form input[type="text"]{
     color: var(--white);
     border-style: none;
     font-size: 1.5em;
+    margin-bottom: 3rem;
 }
 
 form input[type="text"]::placeholder{
@@ -67,7 +68,7 @@ form input[type="submit"]:hover{
     background-color: var(--white);
     display: flex;
     justify-content: space-between;
-    margin-bottom: 6px;
+    margin-bottom: 1.5rem;
     padding: 16px;
     border-radius: 4px;
     font-size: 1.1em;
@@ -83,8 +84,8 @@ form input[type="submit"]:hover{
     cursor: pointer;
 }
 #stats{
-    margin-top: 25px;
-    font-size: 1.5em;
+    margin-top: 3rem;
+    font-size: 1.3em;
     color: var(--veryLightOrange);
     text-align: center;
 }
